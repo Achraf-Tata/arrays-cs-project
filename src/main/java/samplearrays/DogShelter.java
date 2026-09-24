@@ -3,7 +3,7 @@ package samplearrays;
 public class DogShelter {
 
     // initialize an array of 3
-    public static int [] dogCounts=new int[3];
+    private static int [] dogCounts=new int[3];
 
     public static void main(String[] args) {
 
