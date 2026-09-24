@@ -41,7 +41,7 @@ public class BankAccount {
 
     public void displayTransactions(){
         System.out.println("Transaction     Amount");
-        for(int i=0;i<transactions.length;i++){
+        for(int i=0;i<curr;i++){
             System.out.println(i +"     "+transactions[i]);
         }
     }
